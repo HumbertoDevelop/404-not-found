@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap');
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+  font-family: 'Poppins','Inconsolata','Montserrat', sans-serif;
+}
+
+
+.notFound{
+  align-self: flex-start;
+  padding: 1.2rem 0 0 1.2rem;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+
+.container__main{
+  height: 100vh;
+  margin-left: 24px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.img{
+  width: 100%;
+}
+
+
+.container__info{
+  text-align: justify;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.info--title{
+  
+  margin-bottom: 20px;
+
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+
+.info--paragrah{
+  
+  margin-bottom: 60px;
+
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+}
+
+.btn{
+  padding: 1.5rem ;
+  color: #fff;
+  background-color: #000;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+
+.footer{
+  margin-top: 150px;
+  align-self: flex-end;
+  text-align: center;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000;
+}
+
+.footer-h4{
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 768px){
+
+  .container__main{
+
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  .container__info{
+    
+    width: 40%;
+  }
+
+  .img{
+    width: 539px;
+    height: 414px;
+  }
+
+  .info--title{
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+  }
+
+  .info--paragrah{
+    width: 80%;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+  }
+
+  .btn{
+
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  }
+
+
+
+}
