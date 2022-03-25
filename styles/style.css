@@ -12,6 +12,7 @@ img{
 
 body{
   font-family: 'Poppins','Inconsolata','Montserrat', sans-serif;
+  overflow-y: hidden;
 }
 
 
