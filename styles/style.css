@@ -84,14 +84,18 @@ body{
   padding: 1.5rem ;
   color: #fff;
   background-color: #000;
-
+  
   font-weight: bold;
   font-size: 14px;
   line-height: 21px;
   /* identical to box height */
-
+  cursor: pointer;
   letter-spacing: -0.035em;
   text-transform: uppercase;
+}
+
+.btn:hover{
+  background-color: #333333;
 }
 
 .footer{
